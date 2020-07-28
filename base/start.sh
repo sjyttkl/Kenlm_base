@@ -1,0 +1,3 @@
+
+lmplz -o 4 <ds_vdian_search_new_query_report_di_0716> ds_vdian_search_new_query_report_di_0716.arpa
+build_binary -s ds_vdian_search_new_query_report_di_0716.arpa ds_vdian_search_new_query_report_di_0716.bin
