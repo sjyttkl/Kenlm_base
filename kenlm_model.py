@@ -116,7 +116,7 @@ class kenlm_model():
 
         '''
         # corpus_file,arpa_file,memory = '50%',order = 4,skip_symbols = '"<unk>"'
-        executive_code = self.kenlm_model_path + 'lmplz -S {} -o {} --skip_symbols {} < {} > {} '.format(self.memory,
+        executive_code = self.kenlm_model_path + 'lmplz -S {} -o {} --skip_symbols {}  --verbose_header --discount_fallback < {} > {} '.format(self.memory,
                                                                                                          self.order,
                                                                                                          self.skip_symbols,
                                                                                                          self.corpus_file,
